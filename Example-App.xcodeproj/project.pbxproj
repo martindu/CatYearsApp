@@ -13,6 +13,7 @@
 		8EC531BE1A4FAD120095C81B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC531BD1A4FAD120095C81B /* Images.xcassets */; };
 		8EC531C11A4FAD120095C81B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EC531BF1A4FAD120095C81B /* LaunchScreen.xib */; };
 		8EC531CD1A4FAD130095C81B /* Example_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC531CC1A4FAD130095C81B /* Example_AppTests.swift */; };
+		8EC531D71A517E640095C81B /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EC531D61A517E640095C81B /* cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8EC531C61A4FAD130095C81B /* Example-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Example-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC531CB1A4FAD130095C81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EC531CC1A4FAD130095C81B /* Example_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_AppTests.swift; sourceTree = "<group>"; };
+		8EC531D61A517E640095C81B /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				8EC531B61A4FAD120095C81B /* AppDelegate.swift */,
 				8EC531B81A4FAD120095C81B /* ViewController.swift */,
 				8EC531BA1A4FAD120095C81B /* Main.storyboard */,
+				8EC531D61A517E640095C81B /* cat.jpg */,
 				8EC531BD1A4FAD120095C81B /* Images.xcassets */,
 				8EC531BF1A4FAD120095C81B /* LaunchScreen.xib */,
 				8EC531B41A4FAD120095C81B /* Supporting Files */,
@@ -194,6 +197,7 @@
 			files = (
 				8EC531BC1A4FAD120095C81B /* Main.storyboard in Resources */,
 				8EC531C11A4FAD120095C81B /* LaunchScreen.xib in Resources */,
+				8EC531D71A517E640095C81B /* cat.jpg in Resources */,
 				8EC531BE1A4FAD120095C81B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

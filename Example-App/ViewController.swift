@@ -10,9 +10,36 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet var myLabel: UILabel!
+    
+    @IBOutlet var ageText: UITextField!
+    
+    @IBOutlet var ageValue: UILabel!
+    
+    @IBAction func checkButton(sender: UIButton) {
+        
+        if((ageText.text.toInt()) != nil){
+        
+        var age = ageText.text.toInt()! * 7
+        ageValue.text = "Your cat is \(age) in cat years!"
+        }
+        else{
+            ageValue.text = "Please enter a value! "
+        }
+        
+    }
+    @IBAction func pressedButton(sender: AnyObject) {
+        
+      
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
